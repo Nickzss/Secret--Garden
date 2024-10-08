@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: #f5f5dc;
+    opacity: 0.8;
+    background-image:  radial-gradient(#f886c6 0.6000000000000001px, transparent 0.6000000000000001px), radial-gradient(#f886c6 0.6000000000000001px, #f5f5dc 0.6000000000000001px);
+    background-size: 24px 24px;
+    background-position: 0 0,12px 12px;
+    font-family: colibri;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background: #a4e680; 
+    color: white; 
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #FFD1DC; 
+    color: white;
+    position: relative;
+    margin-top: 220px;
+    width: 100%;
+}
+
+.cont {
+    background-color: #F5F5DC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 10;
+}
+
+.logo{
+    position: relative;
+}
+
+.info-button {
+    display: inline-block;
+    background-color: #FFC0CB;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.info-button:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    display: none; 
+    margin-top: 15px;
+}
+
+#info:target {
+    display: block; 
+}
+
+.close-button {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.close-button:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .info-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+* {
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+ul, ol {
+list-style:none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav &gt; li {
+float:left;
+}
+
+.nav li a {
+background-color: #FFD1DC;
+text-decoration: !important;
+color:#fff;
+padding:10px 12px;
+display: block;
+}
+
+.cont-video {
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    top: 200px;
+    left: 500px;
+    
+
+}
+
+.cont-video video {
+    margin-left: 60%;
+    margin-top: 50px;
+    width: 50%;
+    height: auto;
+    
+
+}
